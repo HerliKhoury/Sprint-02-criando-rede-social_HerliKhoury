@@ -1,0 +1,38 @@
+.navbar{
+    background-color: var(--color-grey-1);
+    padding: 1.75rem 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-link{
+    background-color: transparent;
+    color: var(--color-white-fixed);
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: var(--radius-1);
+    text-decoration: none;
+    font-size: var(--getOut-font-size);
+    font-weight: var(--font-weigh-regular);
+    cursor: pointer;
+}
+
+
+.navbar-link:hover, .navbar-link.actived{
+    background-color: var(--color-grey-2);
+}
+
+header p{
+    text-align-last: center;
+}

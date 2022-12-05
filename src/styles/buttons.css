@@ -1,0 +1,85 @@
+button{
+    cursor: pointer;
+}
+
+.buttonPost{
+    height: var(--post-button-height);
+    width: var(--post-button-width);
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-2);
+    border: none;
+    border-radius: var(--radius-1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--post-button-font-size);
+}
+
+.open-post-button{
+    background-color: var(--color-grey-1);
+    color: var(--color-white-fixed);
+    height: var(--open-post_height);
+    width: var(--open-post_width);
+    padding: 0 var(--open-post_padding);
+    border: none;
+    border-radius: var(--radius-1);
+}
+
+.close-modal{
+    width: var(--close-post-button_dimentions);
+    height: var(--close-post-button_dimentions);
+    border: none;
+    border-radius: var(--radius-3);
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-3);
+    position: absolute;
+    top: var(--modal_padding-horizon);
+    right: var(--modal_padding-horizon);
+}
+
+@media(max-width: 749px){ 
+    .follow-button{
+        width: 70px;
+        height: 28px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 0;
+        border-radius: var(--radius-1);
+        border: none;
+    }
+    .follow-button-purple{
+        width: 70px;
+        height: 28px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 0;
+        border-radius: var(--radius-1);
+        border: none;
+        color: var(--color-white-fixed);
+        background-color: var(--color-brand);
+    }
+}
+
+@media(min-width: 750px){ 
+    .follow-button{
+        width: 70px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: var(--radius-1);
+        border: none;
+    }
+    .follow-button-purple{
+        width: 70px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: var(--radius-1);
+        border: none;
+        color: var(--color-white-fixed);
+        background-color: var(--color-brand);
+    }
+}

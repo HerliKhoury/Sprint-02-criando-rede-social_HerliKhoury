@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-grey-1: #212529;
+    --color-grey-2: #495057;
+    --color-grey-3: #DEE2E6;
+    --color-white-fixed: #ffffff;
+    --color-brand: #4263EB;
+    --radius-1: 0.25rem;
+    --radius-2: 0.5rem;
+    --radius-3: 9.375rem;
+    --font-family-1: "Inter", sans-serif;
+    --padding-body: 1.25rem;
+    --gap-body: 2.5rem;
+    --gap-user-card: 0.75rem;
+    --gap-form-mobile: 1.375rem;
+    --gap-suggested-div-mobile: 3.8125rem;
+    --gap-suggested-div-desktop: 1rem;
+    --gap-suggested-user-card_mobile: 1.25rem;
+    --photo-dimentions: 3.25rem;
+    --close-post-button_dimentions: 2.5rem;
+    --title-input-height: 3.25rem;
+    --post-input-height: 8.125rem;
+    --suggested-div-height: 11.5625rem;
+    --form-mobile-hight: 16.5rem;
+    --input-border: 0.125rem;
+    --place-holder-padding-left: 1.25rem;
+    --modal_padding-horizon: 1.5rem;
+    --modal_padding-vertical: 2.5rem;
+    --open-post_padding: 0.75;
+    --place-holder-font-size: 1rem;
+    --post-button-height: 2.375rem;
+    --post-button-width: 4.3125rem;
+    --modal-width: 24.0625rem;
+    --modal-width_desktop: 47.5625rem;
+    --open-post_width: 5.75rem;
+    --open-post_height: 1.875rem;
+    --post-button-font-size: 0.875rem;
+    --ocupation-font-size: 0.875rem;
+    --posts-font-size: 1.75rem;
+    --suggestion-title_font-size: 1.25rem;
+    --user-name_font-size: 1.25rem;
+    --getOut-font-size: 0.875rem;
+    --post-content_font-size: 1rem; 
+    --font-weigh-semibold: 600px;
+    --font-weigh-regular: 400px;
+    --font-weigh-bold: 700px;
+    --line-height-16: 1rem;
+    --line-height-20: 1.25rem;
+    --line-height-24: 1.5rem;
+    --line-height-28: 1.75rem;
+    --line-height-40: 2.5rem;    
+}
+
+body{
+    font-family: var(--font-family-1);
+    min-width: 100vw;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+ul{
+    list-style: none;
+}

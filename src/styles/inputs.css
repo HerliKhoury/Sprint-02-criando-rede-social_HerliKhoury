@@ -1,0 +1,24 @@
+.titleInput{
+    height: var(--title-input-height);
+    border-radius: var(--radius-1);
+    border: solid var(--input-border) var(--color-grey-3);
+    padding-left: var(--place-holder-padding-left);
+}
+
+.titleInput::placeholder{
+    line-height: auto;
+    font-size: var(--place-holder-font-size);
+    font-weight: var(--font-weigh-regular);
+}
+
+.postInput{
+    border-radius: var(--radius-1);
+    border: solid var(--input-border) var(--color-grey-3);
+    padding-left: var(--place-holder-padding-left);
+    height: var(--post-input-height);
+}
+
+.postInput::placeholder{
+    font-size: var(--place-holder-font-size);
+    font-weight: var(--font-weigh-regular);
+}
